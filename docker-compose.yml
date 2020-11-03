@@ -1,0 +1,55 @@
+version: '3'
+
+services:
+  postgresql:
+    restart: always
+    image: cengizbursali/cofeappdb:latest
+    container_name: postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - DB_USER=myuser
+      - DB_PASS=mypass
+      - DB_NAME=cofeappdb
+
+  user-service:
+    image: cengizbursali/user-service:latest
+    container_name: user-service
+    restart: always
+    ports:
+      - 8081:8081
+    deploy:
+      resources:
+        limits:
+          cpus: '0.40'
+          memory: 200M
+    depends_on:
+      - postgresql
+  reward-service:
+    image: cengizbursali/reward-service:latest
+    container_name: reward-service
+    restart: always
+    ports:
+      - 8082:8082
+    deploy:
+      resources:
+        limits:
+          cpus: '0.40'
+          memory: 200M
+    depends_on:
+      - postgresql
+  cofe-app-gw:
+    image: cengizbursali/cofe-app-gw:latest
+    container_name: cofe-app-gw
+    restart: always
+    ports:
+      - 8083:8083
+    deploy:
+      resources:
+        limits:
+          cpus: '0.40'
+          memory: 200M
+    depends_on:
+      - postgresql
+      - user-service
+      - reward-service

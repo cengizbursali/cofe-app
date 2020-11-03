@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: Cofe App Gw
+
+user:
+  service:
+    url: http://localhost:8081
+reward:
+  service:
+    url: http://localhost:8082
