@@ -32,6 +32,9 @@
         </sonar.exclusions>
         <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
         <sonar.java.source>11</sonar.java.source>
+        <sonar.jacoco.itReportPaths>${project.testresult.directory}/coverage/jacoco/jacoco-it.exec</sonar.jacoco.itReportPaths>
+        <sonar.jacoco.reportPaths>${project.testresult.directory}/coverage/jacoco/jacoco.exec</sonar.jacoco.reportPaths>
+        <sonar.surefire.reportsPath>${project.testresult.directory}/surefire-reports</sonar.surefire.reportsPath>
     </properties>
 
     <dependencies>
