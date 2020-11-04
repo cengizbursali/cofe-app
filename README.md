@@ -26,7 +26,9 @@
 
 *	use **docker-compose up -d** to run the dockerized spring boot project
 
+## Documentation
 
+* 	[Swagger](http://localhost:8083/swagger-ui.html) - `http://localhost:8083/swagger-ui.html`- Documentation & Testing
 
 ### URLs
 
@@ -40,9 +42,7 @@
 |`https://localhost:8083/rewards`         | POST   | Create A Reward        |
 |`https://localhost:8083/user-rewards`    | POST   | Assing Reward to User  |
 
-## Documentation
 
-* 	[Swagger](http://localhost:8083/swagger-ui.html) - `http://localhost:8083/swagger-ui.html`- Documentation & Testing
 
 ## EER Diagram
 
