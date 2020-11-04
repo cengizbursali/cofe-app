@@ -24,7 +24,8 @@
 
 ## Running the application locally
 
-*	Default active profile is **`test`**. When the application is running, **Flyway** will create the necessary tables and system data along with sample data. In the **`test`** profile, the application uses **H2** database (data in memory).
+*	use "docker-compose up -d" to run the dockerized spring boot project
+
 
 
 ### URLs
