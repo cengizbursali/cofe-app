@@ -6,8 +6,7 @@
 * 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - to connect database for providing rest service for gateway
 * 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - to connect database for providing rest service for gateway
 
-* 	[postgresql-db](https://github.com/cengizbursali/cofe-app/tree/master/postgresql-db/) - dockerized postgresql database
-
+* 	[postgresql-db](https://github.com/cengizbursali/cofe-app/tree/master/postgresql-db/) - to store client information
 
 
 ## Tech stack & Open-source libraries
