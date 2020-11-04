@@ -19,7 +19,7 @@
 
 ### Others 
 
-* 	[git](https://git-scm.com/) - Free and Open-Source distributed version control system
+* 	[Git](https://git-scm.com/) - Free and Open-Source distributed version control system
 
 
 ## Running the application locally
