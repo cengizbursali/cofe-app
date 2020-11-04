@@ -56,3 +56,5 @@
 
 
 ## EER Diagram
+
+<img src="images\eer_diagram.png"/>
