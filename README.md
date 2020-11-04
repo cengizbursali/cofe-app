@@ -45,13 +45,13 @@
 
 |                   URL                   | Method |          Remarks       |
 |-----------------------------------------|--------|------------------------|
-|`https://localhost:8083/users`           | GET    | Get All Users          |
-|`https://localhost:8083/users/1`         | GET    | Get A User             |
-|`https://localhost:8083/users`           | POST   | Create A User          |
-|`https://localhost:8083/rewards`         | GET    | Get All Rewards        |
-|`https://localhost:8083/rewards/1`       | GET    | Get A Reward           |
-|`https://localhost:8083/rewards`         | POST   | Create A Reward        |
-|`https://localhost:8083/user-rewards`    | POST   | Assing Reward to User  |
+|`https://localhost:8083/users`           | GET    | get all users          |
+|`https://localhost:8083/users/1`         | GET    | get a user             |
+|`https://localhost:8083/users`           | POST   | create a user          |
+|`https://localhost:8083/rewards`         | GET    | get all rewards        |
+|`https://localhost:8083/rewards/1`       | GET    | get a reward           |
+|`https://localhost:8083/rewards`         | POST   | create a reward        |
+|`https://localhost:8083/user-rewards`    | POST   | assing reward to user  |
 
 
 ## EER Diagram
