@@ -3,8 +3,8 @@
 ### Microservices & Database
 
 * 	[cofe-app-gw](https://github.com/cengizbursali/cofe-app/tree/master/cofe-app-gw/) - to communicate with all the services
-* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - to connect database for providing rest service for gateway
-* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - to connect database for providing rest service for gateway
+* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - to connect database for providing rest service
+* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - to connect database for providing rest service
 
 * 	[postgresql-db](https://github.com/cengizbursali/cofe-app/tree/master/postgresql-db/) - to store client information
 
