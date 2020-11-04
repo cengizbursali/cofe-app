@@ -30,6 +30,8 @@
 ### Others 
 
 * 	[Git](https://git-scm.com/) - Free and Open-Source distributed version control system
+*   [Docker](https://www.docker.com/) - A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
+
 
 
 ## Running the application locally
