@@ -2,9 +2,9 @@
 
 ## Microservices
 
-* 	[cofe-app-gw](https://www.postgresql.org/) - Open-Source Relational Database Management System
-* 	[user-service](https://www.postgresql.org/) - Open-Source Relational Database Management System
-* 	[reward-service](https://www.postgresql.org/) - Open-Source Relational Database Management System
+* 	[cofe-app-gw](https://github.com/cengizbursali/cofe-app/tree/master/cofe-app-gw/) - Open-Source Relational Database Management System
+* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - Open-Source Relational Database Management System
+* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - Open-Source Relational Database Management System
 
 
 ## Tech stack & Open-source libraries
