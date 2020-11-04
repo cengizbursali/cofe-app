@@ -6,7 +6,7 @@ spring:
 
 user:
   service:
-    url: http://localhost:8081
+    url: http://user-service:8081
 reward:
   service:
-    url: http://localhost:8082
+    url: http://reward-service:8082
