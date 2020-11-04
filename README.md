@@ -31,18 +31,20 @@
 
 |                   URL                   | Method |          Remarks       |
 |-----------------------------------------|--------|------------------------|
-|`https://localhost:8080/index`           | GET    | Home Page              |
-|`https://localhost:8080/sbat/index`      | GET    | Home Page              |
-|`https://localhost:8080/sbat/about`      | GET    | About Page             |
-|`https://localhost:8080/sbat/tech-stack` | GET    | Technology Stack Table |
-|`https://localhost:8080/sbat/close`      | GET    | Close App via Actuator |
-|`https://localhost:8080/sbat/login`      | GET    | Login Page             |
-|`https://localhost:8080/sbat/error`      | GET    | Custom Error Page      |
+|`https://localhost:8083/users`           | GET    | Get All Users          |
+|`https://localhost:8083/users/1`         | GET    | Get A User             |
+|`https://localhost:8083/users`           | POST   | Create A User          |
+
+|`https://localhost:8083/rewards`         | GET    | Get All Rewards        |
+|`https://localhost:8083/rewards/1`       | GET    | Get A Reward           |
+|`https://localhost:8083/rewards`         | POST   | Create A Reward        |
+|`https://localhost:8083/user-rewards`    | POST   | Assing Reward to User  |
 
 ## Documentation
 
-* 	[Swagger](http://localhost:8083/swagger-ui.html) - `http://localhost:8080/swagger-ui.html`- Documentation & Testing
+* 	[Swagger](http://localhost:8083/swagger-ui.html) - `http://localhost:8083/swagger-ui.html`- Documentation & Testing
 
 ## EER Diagram
 
-<img src="images\SBAT-EER-Diagram.png"/>
+
+
