@@ -53,10 +53,4 @@
 |`https://localhost:8083/user-rewards`    | POST   | Assing Reward to User  |
 
 
-
 ## EER Diagram
-
-
-
-
-
