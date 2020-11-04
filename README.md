@@ -33,7 +33,7 @@
 
 
 
-## Running the application locally
+## Running the application
 
 *	use "**docker-compose up -d**" to run the dockerized spring boot projects
 
