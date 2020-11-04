@@ -34,7 +34,6 @@
 |`https://localhost:8083/users`           | GET    | Get All Users          |
 |`https://localhost:8083/users/1`         | GET    | Get A User             |
 |`https://localhost:8083/users`           | POST   | Create A User          |
-
 |`https://localhost:8083/rewards`         | GET    | Get All Rewards        |
 |`https://localhost:8083/rewards/1`       | GET    | Get A Reward           |
 |`https://localhost:8083/rewards`         | POST   | Create A Reward        |
