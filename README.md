@@ -2,11 +2,11 @@
 
 ## Microservices & Database
 
-* 	[cofe-app-gw](https://github.com/cengizbursali/cofe-app/tree/master/cofe-app-gw/) - Dockerized spring boot gateway application
-* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - Dockerized spring boot application
-* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - Dockerized spring boot application
+* 	[cofe-app-gw](https://github.com/cengizbursali/cofe-app/tree/master/cofe-app-gw/) - to communicate with all the services
+* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - to connect database for providing rest service for gateway
+* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - to connect database for providing rest service for gateway
 
-* 	[postgresql-db](https://github.com/cengizbursali/cofe-app/tree/master/postgresql-db/) - Dockerized postgresql database
+* 	[postgresql-db](https://github.com/cengizbursali/cofe-app/tree/master/postgresql-db/) - dockerized postgresql database
 
 
 
