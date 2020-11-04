@@ -1,23 +1,25 @@
 # cofe-app
 
-## Microservices
+## Microservices & Database
 
-* 	[cofe-app-gw](https://github.com/cengizbursali/cofe-app/tree/master/cofe-app-gw/) - Open-Source Relational Database Management System
-* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - Open-Source Relational Database Management System
-* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - Open-Source Relational Database Management System
+* 	[cofe-app-gw](https://github.com/cengizbursali/cofe-app/tree/master/cofe-app-gw/) - Dockerized spring boot gateway application
+* 	[user-service](https://github.com/cengizbursali/cofe-app/tree/master/user-service/) - Dockerized spring boot application
+* 	[reward-service](https://github.com/cengizbursali/cofe-app/tree/master/reward-service/) - Dockerized spring boot application
+
+* 	[postgresql-db](https://github.com/cengizbursali/cofe-app/tree/master/postgresql-db/) - Dockerized postgresql database
 
 
 ## Tech stack & Open-source libraries
-
-### Data
-
-* 	[PostgreSql](https://www.postgresql.org/) - Open-Source Relational Database Management System
 
 ### Server - Backend
 
 * 	[JDK-11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Java™ Platform, Standard Edition Development Kit
 * 	[Spring Boot](https://spring.io/projects/spring-boot) - Framework to ease the bootstrapping and development of new Spring Applications
 * 	[Maven](https://maven.apache.org/) - Dependency Management
+
+### Data
+
+* 	[PostgreSql](https://www.postgresql.org/) - Open-Source Relational Database Management System
 
 ###  Libraries and Plugins
 
@@ -31,7 +33,7 @@
 
 ## Running the application locally
 
-*	use **docker-compose up -d** to run the dockerized spring boot project
+*	use **docker-compose up -d**" to run the dockerized spring boot projects
 
 ## Documentation
 
