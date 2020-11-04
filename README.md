@@ -1,5 +1,12 @@
 # cofe-app
 
+## Microservices
+
+* 	[cofe-app-gw](https://www.postgresql.org/) - Open-Source Relational Database Management System
+* 	[user-service](https://www.postgresql.org/) - Open-Source Relational Database Management System
+* 	[reward-service](https://www.postgresql.org/) - Open-Source Relational Database Management System
+
+
 ## Tech stack & Open-source libraries
 
 ### Data
